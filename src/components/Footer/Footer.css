@@ -1,0 +1,14 @@
+footer.footer {
+    display: block;
+    font-size: 0.6em;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+    bottom: 0;
+    height: 100%;
+}
+
+div.icones {
+    font-size: 0.8em;
+}
+

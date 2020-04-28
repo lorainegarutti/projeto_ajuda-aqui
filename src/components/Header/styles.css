@@ -1,0 +1,35 @@
+header {
+    display: inline-block;
+    margin-top: 1%;
+    height: 100%;
+}
+
+img.logo__icon {
+    width: 8%;
+    margin: 0 40px;
+    float: left;
+}
+
+nav.navigation-bar {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.topicos {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+a.itens-menu:hover {
+    font-weight: bold;
+}
+
+img.itens-menu {
+    width: 10%;
+    margin-right: 10px;
+}
+

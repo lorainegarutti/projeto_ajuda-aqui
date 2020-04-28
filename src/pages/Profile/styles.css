@@ -1,0 +1,64 @@
+section.botoes-adicionar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    margin: 20px auto;
+    background: #f0f0f5;
+}
+
+.botoes-adicionar h2 {
+    font-size: 1.8em;
+    vertical-align: middle;
+}
+
+.botoes-adicionar h2 span {
+    margin-top: 10px;
+}
+
+.botoes-adicionar button {
+    font-size: 1.2em;
+    height: 55px;
+}
+
+.botoes-adicionar button.logout {
+    background-color: #FFF;
+    max-width: 60px;
+    padding: 20px;
+}
+
+section.lista-pessoal {
+    width: 90%;
+    height: 100%;
+    padding: 30px 50px;
+    margin: 30px auto;
+    background: #f0f0f5;
+    border-radius: 8px;
+}
+
+.apresentacao h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.apresentacao .titulo button {
+    font-size: 1.2em;
+}
+
+.apresentacao ul {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.apresentacao ul li .cabecalho {
+    display: flex;
+}
+
+.apresentacao ul li .cabecalho button {
+    background-color: #FFF;
+    margin: 1% 0 0 33%;
+}
+
+.lista-pessoal .apresentacao button.ver-outras {
+    margin-top: 30px;
+}

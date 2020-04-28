@@ -1,0 +1,73 @@
+div.container-register {
+    width: 100%;
+    max-width: 1120px;
+    height: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.register {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 80px;
+    background: #f0f0f5;
+    border-radius: 8px;
+}
+
+.register .cabecalho-form {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register .cabecalho-form h1 {
+    font-size: 1.9em;
+}
+
+.register .cabecalho-form p {
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+.register button.fazer-logon {
+    margin-top: 35px;
+}
+
+.register form {
+    width: 100%;
+    max-width: 360px;
+    background: #f0f0f5;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+.register form input {
+    margin-bottom: 8px;
+    font-size: 1em;
+    width: 100%;
+    height: 57px;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+.register form .input-group {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.register form .input-group input + input {
+    margin-left: 18px;
+}
+
+.register form .cadastrar {
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.register button.fazer-logon span {
+    font-size: 1.1em;
+    margin-left: 8px;
+    color: #FFF
+}

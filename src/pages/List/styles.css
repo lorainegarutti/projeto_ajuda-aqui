@@ -1,0 +1,40 @@
+section.lista {
+    width: 90%;
+    height: 100%;
+    padding: 30px 50px 50px 50px;
+    margin: auto;
+    background: #f0f0f5;
+    border-radius: 8px;
+}
+
+.apresentacao .titulo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.apresentacao ul {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.apresentacao ul li {
+    background-color: #FFF;
+}
+
+.apresentacao ul li button {
+    margin-top: 20px;
+    padding: 4% 5%;
+}
+
+.apresentacao ul li .botoes-casos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao ul li .botoes-casos button:first-child {
+    width: 42%;
+}
+
+.apresentacao ul li .botoes-casos button:last-child {
+    width: 50%;
+}
